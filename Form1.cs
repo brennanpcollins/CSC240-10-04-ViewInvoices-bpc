@@ -33,7 +33,7 @@ namespace CSC240_10_04_ViewInvoices_bpc
         {
             try{
                 recordIn = reader.ReadLine();
-                fields = recordIn.Split(DELIM);
+                fields = recordIn.Split(DELIM); 
                 UxInvoiceBox.Text = fields[0];
                 UxNameBox.Text = fields[1];
                 UxAmountBox.Text = fields[2];
